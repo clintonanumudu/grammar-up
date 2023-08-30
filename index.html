@@ -71,7 +71,61 @@
             font-size: 18px;
             color: #aaa9a9;
             user-select: none;
-            margin-top: 16px;
+            margin-top: 13px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            #logo {
+                font-size: 28px;
+            }
+            #questions-solved {
+                font-size: 12px;
+            }
+            #questions p {
+                width: 300px; /* Adjust width for smaller screens */
+                font-size: 14px;
+            }
+            #text-carousel {
+                height: 50px; /* Adjust height for smaller screens */
+                padding: 10px; /* Adjust padding for smaller screens */
+            }
+            #text-carousel-buttons {
+                font-size: 20px; /* Adjust font size of arrows for smaller screens */
+            }
+            #text-carousel-text {
+                font-size: 16px; /* Adjust font size of carousel text for smaller screens */
+            }
+        }
+        
+        @media (max-width: 400px) {
+            body {
+                align-items: center;
+            }
+            #questions {
+                margin-top: 30px;
+            }
+            #questions p {
+                width: 200px; /* Adjust width for smaller screens */
+                font-size: 12px;
+            }
+            #questions-solved {
+                right: unset;
+                top: 100px;
+            }
+        }
+
+        @media (max-width: 260px) {
+            #logo {
+                font-size: 10vw;
+            }
+            #questions p {
+                width: 80vw; /* Adjust width for smaller screens */
+                font-size: 4vw;
+            }
+            #questions-solved, #text-carousel-text, #text-carousel-buttons {
+                font-size: 4vw;
+            }
         }
     </style>
 </head>
