@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+    #logo {
+        font-size: 28px;
+    }
+    #questions-solved {
+        font-size: 12px;
+    }
+    #questions p {
+        width: 300px;
+        font-size: 14px;
+    }
+    #text-carousel {
+        height: 50px;
+        padding: 10px;
+    }
+    #text-carousel-buttons {
+        font-size: 20px;
+    }
+    #text-carousel-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        align-items: center;
+    }
+    #questions {
+        margin-top: 30px;
+    }
+    #questions p {
+        width: 200px;
+        font-size: 12px;
+    }
+    #questions-solved {
+        right: unset;
+        top: 100px;
+    }
+}
+
+@media (max-width: 260px) {
+    #logo {
+        font-size: 10vw;
+    }
+    #questions p {
+        width: 80vw;
+        font-size: 4vw;
+    }
+    #questions-solved, #text-carousel-text, #text-carousel-buttons {
+        font-size: 4vw;
+    }
+}
